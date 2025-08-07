@@ -19,7 +19,7 @@ Smart AI Interview Coach is an AI-powered interactive interview preparation tool
 - Categorized Questions  
   Questions are grouped into Personal and Technical types and shown in dropdowns for better UX and error reduction.
 
-**Tech Stack**
+## Tech Stack
 
 - Python 3.10+
 - Streamlit
@@ -29,8 +29,7 @@ Smart AI Interview Coach is an AI-powered interactive interview preparation tool
 - scikit-learn
 - pandas
 
-
-Folder Structure
+## Folder Structure
 
 smart-interview-coach/
 ├── app.py # Main Streamlit app
@@ -52,10 +51,13 @@ smart-interview-coach/
 ├── models/ # Placeholder for future models
 └── logs/ # Placeholder for logging or backups
 
-**How It Works**
-
+How It Works
 User selects a question from dropdown or enters it manually.
+
 User writes or uploads their response (audio or text).
+
 The app finds the matching ideal answer and scores the response using Sentence-BERT embeddings.
+
 Feedback is displayed and stored in MySQL.
+
 Recommendations are generated from recent low-scoring answers.
