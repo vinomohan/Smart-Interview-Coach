@@ -1,0 +1,27 @@
+# Core
+streamlit==1.35.0
+pandas
+numpy
+
+# NLP
+transformers==4.41.2
+sentence-transformers==2.7.0
+torch
+
+# Text Cleaning
+spacy
+# For spaCy model - run manually: python -m spacy download en_core_web_sm
+
+# Audio Transcription (Whisper - local model)
+git+https://github.com/openai/whisper.git
+ffmpeg-python
+
+# Audio Processing
+pyaudio
+speechrecognition
+
+# Optional (for SQLite logging)
+sqlalchemy
+
+# Performance improvement for Whisper
+numba
